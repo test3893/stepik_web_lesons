@@ -11,10 +11,8 @@ _port = 2222
 _maxClient = 10
 _recvBuffer = 1024
 
-def printd (aString):
-    if debug:
-        print aString
-
+def echo_read:
+    
 class talkToClient (threading.Thread):
     def __init__(self, clientSock, addr):
         self.clientSock = clientSock
