@@ -11,7 +11,7 @@ _port = 2222
 _maxClient = 10
 _recvBuffer = 1024
 
-def echo_read:
+def echo_read():
     
 class talkToClient (threading.Thread):
     def __init__(self, clientSock, addr):
